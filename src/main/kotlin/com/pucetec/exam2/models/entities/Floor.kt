@@ -4,7 +4,7 @@ import jakarta.persistence.Entity
 import jakarta.persistence.Table
 
 @Entity
-@Table(name = "floor")
+@Table(name = "floors")
 data class Floor(
     val uid: String,
     var level: Int,
